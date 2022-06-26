@@ -1,0 +1,22 @@
+{
+    "compileOnSave": true,
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "ES2018",
+        "lib": ["ES2018"],
+        
+        "strict": true,
+        "noFallthroughCasesInSwitch": true,
+        "noImplicitOverride": true,
+        "noImplicitReturns": true,
+        "noPropertyAccessFromIndexSignature": true,
+        
+        "experimentalDecorators": true,
+        "declaration": true,
+        "preserveConstEnums": true,
+        "removeComments": true,
+        "outDir": "out"
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+}

@@ -1,0 +1,25 @@
+{
+  "name": "adv-json-rpc-server",
+  "version": "1.0.3",
+  "description": "JSON-RPC server",
+  "license": "MIT",
+  "author": {
+    "name": "Fabeuluci"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fabeuluci/adv-json-rpc-server.git"
+  },
+  "main": "./out/index.js",
+  "types": "./out/index.d.ts",
+  "scripts": {
+    "compile": "rm -rf out && tsc",
+    "watch": "rm -rf out && tsc -w"
+  },
+  "dependencies": {
+    "adv-try": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "*"
+  }
+}
